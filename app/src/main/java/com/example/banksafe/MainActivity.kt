@@ -57,7 +57,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 val Columna = Modifier
     .fillMaxWidth()
     .fillMaxSize()
-    .border(2.dp, Color.Black)
+    .border(2.dp, Color.Red)
 
 val Fila = Modifier
     .fillMaxWidth()
@@ -140,8 +140,8 @@ fun Home(){
 //    }
 //}
 
-@Preview(showBackground = true, showSystemUi = true, device = NEXUS_5)
-@Composable()
-fun preview(){
-    Home()
-}
+//@Preview(showBackground = true, showSystemUi = true, device = NEXUS_5)
+//@Composable()
+//fun preview(){
+//    Home()
+//}
